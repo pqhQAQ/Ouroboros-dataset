@@ -1,0 +1,7 @@
+_Z4fun6iPiPS_	1	_Z4fun1iPiPS_	
+_Z4fun5iPiPS_	1	_Z4fun6iPiPS_	
+_Z4fun7iPiPS_	1	_Z4fun5iPiPS_	
+_Z4fun1iPiPS_	1	_Z4fun7iPiPS_	
+_Z4fun4iPi	1	_Z4fun3iPi	
+_Z4fun3iPi	1	_Z4fun4iPi	
+main	7	_Z4fun1iPiPS_	_Z4fun2iPiPS_S_	_Z4fun3iPi	_Z4fun4iPi	_Z4fun3iPi	malloc	_Znam	
