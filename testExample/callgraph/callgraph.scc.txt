@@ -1,0 +1,8 @@
+SCCs for the program in PostOrder:
+SCC #1 : external node, 
+SCC #2 : malloc, 
+SCC #3 : _Znam, 
+SCC #4 : _Z4fun1iPiPS_, 
+SCC #5 : _Z4fun2iPiPS_S_, 
+SCC #6 : external node, 
+Printing analysis 'Print SCCs of the Call Graph':

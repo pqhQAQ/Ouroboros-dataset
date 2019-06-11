@@ -1,0 +1,18 @@
+digraph "Call graph" {
+	label="Call graph";
+
+	Node0x8906850 [shape=record,label="{external node}"];
+	Node0x8906850 -> Node0x89068f0;
+	Node0x8906850 -> Node0x8906990;
+	Node0x8906850 -> Node0x8906e40;
+	Node0x8906850 -> Node0x8906fe0;
+	Node0x89068f0 [shape=record,label="{_Z4fun1iPiPS_}"];
+	Node0x89068f0 -> Node0x8906990;
+	Node0x89068f0 -> Node0x8906e40;
+	Node0x8906990 [shape=record,label="{malloc}"];
+	Node0x8906990 -> Node0x8906880;
+	Node0x8906e40 [shape=record,label="{_Znam}"];
+	Node0x8906e40 -> Node0x8906880;
+	Node0x8906fe0 [shape=record,label="{_Z4fun2iPiPS_S_}"];
+	Node0x8906fe0 -> Node0x89068f0;
+}

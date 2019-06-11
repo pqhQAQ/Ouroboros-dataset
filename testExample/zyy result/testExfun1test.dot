@@ -1,0 +1,5 @@
+digraph "CFG for '_Z4fun1iPiPS_' function" {
+	label="CFG for '_Z4fun1iPiPS_' function";
+
+	Node0x8f6db80 [shape=record,label="{entry:\l alloca:i32* %ptr.addr\l alloca:i32** %pptr.addr\l alloca:i32* %newP\l alloca:i32* %newPP\l assign: @globalC = %ptr.addr\l assign: %pptr.addr = @globalD\l alloca: %newP = %2\l alloca: %newPP = %3\l ret %ptr.addr\l }"];
+	Node1 [shape=record,label="{%ptr.addr topLevel\l %pptr.addr topLevel\l %newP topLevel\l %newPP topLevel\l @globalC topLevel\l @globalD topLevel\l %2 addressTaken\l %3 addressTaken\l %n.addr formarlParameter\l %ptr.addr formarlParameter\l %pptr.addr formarlParameter\l }"];}

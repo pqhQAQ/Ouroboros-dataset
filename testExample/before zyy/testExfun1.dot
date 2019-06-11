@@ -1,0 +1,5 @@
+digraph "CFG for '_Z4fun1iPiPS_' function" {
+	label="CFG for '_Z4fun1iPiPS_' function";
+
+	Node0x8f6db80 [shape=record,label="{entry:\l  %n.addr = alloca i32, align 4\l  %ptr.addr = alloca i32*, align 8\l  %pptr.addr = alloca i32**, align 8\l  %newP = alloca i32*, align 8\l  %newPP = alloca i32*, align 8\l  store i32 %n, i32* %n.addr, align 4\l  store i32* %ptr, i32** %ptr.addr, align 8\l  store i32** %pptr, i32*** %pptr.addr, align 8\l  %0 = load i32*, i32** %ptr.addr, align 8\l  store i32* %0, i32** @globalC, align 8\l  %1 = load i32**, i32*** @globalD, align 8\l  store i32** %1, i32*** %pptr.addr, align 8\l  %call = call noalias i8* @malloc(i64 40) #3\l  %2 = bitcast i8* %call to i32*\l  store i32* %2, i32** %newP, align 8\l  %call1 = call i8* @_Znam(i64 40) #4\l  %3 = bitcast i8* %call1 to i32*\l  store i32* %3, i32** %newPP, align 8\l  %4 = load i32*, i32** %ptr.addr, align 8\l  ret i32* %4\l}"];
+}

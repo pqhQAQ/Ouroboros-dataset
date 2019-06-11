@@ -6,14 +6,14 @@
 5: ret	_Z4fun1iPiPS_.%ptr.addr.1
 6: block without stmt
 7: alloca	_Z4fun2iPiPS_S_.@globalC.1	_Z4fun2iPiPS_S_.%n.addr
-8: store	*_Z4fun2iPiPS_S_.%pptr.addr.0	_Z4fun2iPiPS_S_.%ptr.addr.0
-9: load	_Z4fun2iPiPS_S_.%ptr1.addr	*_Z4fun2iPiPS_S_.%pptr.addr.0
+8: store	_Z4fun2iPiPS_S_.%pptr.addr.0	_Z4fun2iPiPS_S_.%ptr.addr.0
+9: load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr.0
 10: assign	_Z4fun2iPiPS_S_.%ptr.addr.1	_Z4fun2iPiPS_S_.%ptr1.addr
 11: assign	_Z4fun2iPiPS_S_.%retval.1	_Z4fun2iPiPS_S_.%pptr.addr.0
 12: alloca	_Z4fun2iPiPS_S_.@globalD.1	_Z4fun2iPiPS_S_.%ptr1.addr
 13: alloca	_Z4fun2iPiPS_S_.%ptr.addr.2	_Z4fun2iPiPS_S_.%n.addr
-14: store	*_Z4fun2iPiPS_S_.@globalD.1	_Z4fun2iPiPS_S_.%ptr.addr.2
-15: load	_Z4fun2iPiPS_S_.%ptr1.addr	*_Z4fun2iPiPS_S_.%pptr.addr.0
+14: store	_Z4fun2iPiPS_S_.@globalD.1	_Z4fun2iPiPS_S_.%ptr.addr.2
+15: load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr.0
 16: assign	_Z4fun2iPiPS_S_.%retval.2	_Z4fun2iPiPS_S_.@globalD.1
 17: phi	_Z4fun2iPiPS_S_.@globalC.2	_Z4fun2iPiPS_S_.@globalC.0	_Z4fun2iPiPS_S_.@globalC.1	
 18: phi	_Z4fun2iPiPS_S_.%retval.3	_Z4fun2iPiPS_S_.%retval.2	_Z4fun2iPiPS_S_.%retval.1	
@@ -40,18 +40,18 @@
 39: assign	_Z4fun7iPiPS_.%ptr.addr.1	_Z4fun7iPiPS_.%call
 40: ret	_Z4fun7iPiPS_.%ptr.addr.1
 41: assign	main.%e.1	main.%f.0
-42: load	main.@globalC.1	*main.%e.1
-43: store	*main.%e.1	main.%g
-44: load	main.%h	*main.%e.1
+42: load	main.@globalC.1	main.%e.1
+43: store	main.%e.1	main.%g
+44: load	main.%h	main.%e.1
 45: alloca	main.%q.1	main.%h
-46: store	*main.%f.0	main.%p.0
-47: store	*main.%q.0	main.%p.0
+46: store	main.%f.0	main.%p.0
+47: store	main.%q.0	main.%p.0
 48: assign	main.%g	main.%h
 49: alloca	main.%p.1	main.%b
 50: phi	main.%p.2	main.%p.1	main.%p.0	
 51: phi	main.%q.2	main.%q.0	main.%q.1	
 52: block without stmt
-53: load	main.%h	*main.%q.2
+53: load	main.%h	main.%q.2
 54: assign	main.%g	main.%p.2
 55: block without stmt
 56: block without stmt
@@ -72,21 +72,21 @@
 71: return	main.%call15	i32* @_Z4fun4iPi(main.%c main.%g )
 72: assign	main.%pointerCase.0	main.%g
 73: assign	main.%h	main.%pointerCase.1.0
-74: store	*main.%pointerCase.2.0	main.%p.7
-75: load	main.%h	*main.%pointerCase.3.0
+74: store	main.%pointerCase.2.0	main.%p.7
+75: load	main.%h	main.%pointerCase.3.0
 76: alloca	main.%pointerCase.3.1	main.%g
 77: alloca	main.%f.3	main.%pointerCase.0
-78: store	*main.%e.3	main.%pointerCase.1.2
-79: load	main.%pointerCase.0	*main.%f.3
+78: store	main.%e.3	main.%pointerCase.1.2
+79: load	main.%pointerCase.0	main.%f.3
 80: block without stmt
 81: assign	main.%PointerArray.2.1	main.%p.7
 82: assign	main.%pointerCase.1.1	main.%PointerArray.1
 83: assign	main.%pointerCase.2.1	main.%PointerArray.0
-84: store	*main.%pointerCase.3.0	main.%PointerArray.6.0
-85: load	main.%PointerArray.7.1	*main.%pointerCase.3.0
+84: store	main.%pointerCase.3.0	main.%PointerArray.6.0
+85: load	main.%PointerArray.7.1	main.%pointerCase.3.0
 86: alloca	main.%f.1	main.%PointerArray.1
-87: load	main.%PointerArray.3.1	*main.%f.1
-88: store	*main.%e.3	main.%PointerArray.4.0
+87: load	main.%PointerArray.3.1	main.%f.1
+88: store	main.%e.3	main.%PointerArray.4.0
 89: block without stmt
 90: block without stmt
 91: block without stmt
@@ -106,21 +106,21 @@
 105: phi	main.%PointerArray.2.3	main.%PointerArray.2.2	main.%PointerArray.2.2	
 106: phi	main.%pointerCase.1.3	main.%pointerCase.1.2	main.%pointerCase.1.2	
 107: phi	main.%pointerCase.2.3	main.%pointerCase.2.2	main.%pointerCase.2.2	
-108: phi	main.%pointerCase.3.2	main.%pointerCase.3.1	main.%pointerCase.3.0	
+108: phi	main.%pointerCase.3.2	main.%pointerCase.3.0	main.%pointerCase.3.1	
 109: phi	main.%PointerArray.7.3	main.%PointerArray.7.2	main.%PointerArray.7.2	
-110: phi	main.%f.4	main.%f.3	main.%f.2	
+110: phi	main.%f.4	main.%f.2	main.%f.3	
 111: phi	main.%p.8	main.%p.7	main.%p.10	
 112: phi	main.%q.3	main.%q.2	main.%q.5	
 113: assign	main.%g	main.%PointerArray.0.0
 114: assign	main.%PointerArray.1	main.%pointerCase.0
 115: alloca	main.%newP.1	main.%84
 116: alloca	main.%newPP.1	main.%85
-117: store	*main.%e.3	main.%g
-118: load	main.%h	*main.%e.3
+117: store	main.%e.3	main.%g
+118: load	main.%h	main.%e.3
 119: alloca	main.%q.4	main.%h
-120: store	*main.%f.4	main.%p.8
-121: store	*main.%q.3	main.%p.8
+120: store	main.%f.4	main.%p.8
+121: store	main.%q.3	main.%p.8
 122: assign	main.%g	main.%h
 123: alloca	main.%p.9	main.%b
-124: phi	main.%p.10	main.%p.9	main.%p.8	
-125: phi	main.%q.5	main.%q.3	main.%q.4	
+124: phi	main.%p.10	main.%p.8	main.%p.9	
+125: phi	main.%q.5	main.%q.4	main.%q.3	

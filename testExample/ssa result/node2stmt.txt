@@ -1,0 +1,25 @@
+0: assign	_Z4fun1iPiPS_.@globalC.1	_Z4fun1iPiPS_.%ptr.addr.0
+1: assign	_Z4fun1iPiPS_.%pptr.addr.1	_Z4fun1iPiPS_.@globalD.0
+2: alloca	_Z4fun1iPiPS_.%newP.1	_Z4fun1iPiPS_.%2
+3: alloca	_Z4fun1iPiPS_.%newPP.1	_Z4fun1iPiPS_.%3
+4: ret	_Z4fun1iPiPS_.%ptr.addr.0
+5: block without stmt
+6: alloca	_Z4fun2iPiPS_S_.@globalC.1	_Z4fun2iPiPS_S_.%n.addr
+7: store	_Z4fun2iPiPS_S_.%pptr.addr.0	_Z4fun2iPiPS_S_.%ptr.addr.0
+8: load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr.0
+9: assign	_Z4fun2iPiPS_S_.%ptr.addr.1	_Z4fun2iPiPS_S_.%ptr1.addr
+10: call	_Z4fun2iPiPS_S_.%call	i32* @_Z4fun1iPiPS_(_Z4fun2iPiPS_S_.%n.addr _Z4fun2iPiPS_S_.%ptr.addr.1 _Z4fun2iPiPS_S_.%pptr.addr.0 )
+11: return	_Z4fun2iPiPS_S_.%call	i32* @_Z4fun1iPiPS_(_Z4fun2iPiPS_S_.%n.addr _Z4fun2iPiPS_S_.%ptr.addr.1 _Z4fun2iPiPS_S_.%pptr.addr.0 )
+12: assign	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%call
+13: assign	_Z4fun2iPiPS_S_.%retval.1	_Z4fun2iPiPS_S_.%pptr.addr.0
+14: alloca	_Z4fun2iPiPS_S_.@globalD.1	_Z4fun2iPiPS_S_.%ptr1.addr
+15: alloca	_Z4fun2iPiPS_S_.%ptr.addr.2	_Z4fun2iPiPS_S_.%n.addr
+16: store	_Z4fun2iPiPS_S_.@globalD.1	_Z4fun2iPiPS_S_.%ptr.addr.2
+17: load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr.0
+18: assign	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%ptr.addr.2
+19: assign	_Z4fun2iPiPS_S_.%retval.2	_Z4fun2iPiPS_S_.@globalD.1
+20: phi	_Z4fun2iPiPS_S_.@globalC.2	_Z4fun2iPiPS_S_.@globalC.0	_Z4fun2iPiPS_S_.@globalC.1	
+21: phi	_Z4fun2iPiPS_S_.%retval.3	_Z4fun2iPiPS_S_.%retval.2	_Z4fun2iPiPS_S_.%retval.1	
+22: phi	_Z4fun2iPiPS_S_.@globalD.2	_Z4fun2iPiPS_S_.@globalD.1	_Z4fun2iPiPS_S_.@globalD.0	
+23: phi	_Z4fun2iPiPS_S_.%ptr.addr.3	_Z4fun2iPiPS_S_.%ptr.addr.2	_Z4fun2iPiPS_S_.%ptr.addr.1	
+24: ret	_Z4fun2iPiPS_S_.%retval.3

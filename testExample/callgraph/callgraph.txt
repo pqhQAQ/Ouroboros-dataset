@@ -1,0 +1,2 @@
+_Z4fun1iPiPS_	2	malloc	_Znam	
+_Z4fun2iPiPS_S_	1	_Z4fun1iPiPS_	
