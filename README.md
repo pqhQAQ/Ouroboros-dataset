@@ -45,11 +45,11 @@ alloca statement的格式如下：
 >    phi **\\t** \_Z4fun2iPiPS_S_.%ptr.addr.3 **\\t** \_Z4fun2iPiPS_S_.%ptr.addr.2 **\\t** \_Z4fun2iPiPS_S_.%ptr.addr.1
 
 ## call
-源代码中的每次函数调用，图中都会产生相应的call statement和return statement。call statement中不存在别名关系。如果函数调用存在参数传递，则会产生添加形式参数 = 实际参数的calledge node，并在图中添加call node -> calledge node; calledge node -> 被调用函数第一个node的边。call statement中仅包含类型名称，不包含操作数等内容，call statement格式如下：  
+源代码中的每次函数调用，图中都会产生相应的call statement和return statement。call statement中不存在别名关系。如果函数调用存在参数传递，则会产生添加 "形式参数 = 实际参数" 的calledge node，并在图中添加call node -> calledge node; calledge node -> 被调用函数第一个node的边。call statement中仅包含类型名称，不包含操作数等内容，call statement格式如下：  
 `call`
 
 ## return
-源代码中的每次函数调用，图中都会产生相应的call statement和return statement。call statement中不存在别名关系。如果被调用函数存在返回值，则会产生添加实际返回值 = 形式返回值的returnedge node，并在图中添加被调用函数的ret node -> returnedge node; returnedge node -> return node的边。return statement中仅包含类型名称，不包含操作数等内容，return statement格式如下：   
+源代码中的每次函数调用，图中都会产生相应的call statement和return statement。call statement中不存在别名关系。如果被调用函数存在返回值，则会产生添加 "实际返回值 = 形式返回值" 的returnedge node，并在图中添加被调用函数的ret node -> returnedge node; returnedge node -> return node的边。return statement中仅包含类型名称，不包含操作数等内容，return statement格式如下：   
 `return`
 
 ## ret
