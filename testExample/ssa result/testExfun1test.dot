@@ -1,5 +1,5 @@
 digraph "CFG for '_Z4fun1iPiPS_' function" {
 	label="CFG for '_Z4fun1iPiPS_' function" ;
 
-	Node0x8f6db80 [shape=record,label="{entry:\l 0: assign	_Z4fun1iPiPS_.@globalC.1	_Z4fun1iPiPS_.%ptr.addr.0\l 1: assign	_Z4fun1iPiPS_.%pptr.addr.1	_Z4fun1iPiPS_.@globalD.0\l 2: alloca	_Z4fun1iPiPS_.%newP.1	_Z4fun1iPiPS_.%2\l 3: alloca	_Z4fun1iPiPS_.%newPP.1	_Z4fun1iPiPS_.%3\l 4: ret	_Z4fun1iPiPS_.%ptr.addr.0\l }"];
+	Node0x8f6db80 [shape=record,label="{entry:\l 0: assign	@globalC	_Z4fun1iPiPS_.%ptr.addr.0\l 1: assign	_Z4fun1iPiPS_.%pptr.addr.1	@globalD\l 2: alloca	_Z4fun1iPiPS_.%newP.1	_Z4fun1iPiPS_.%2\l 3: alloca	_Z4fun1iPiPS_.%newPP.1	_Z4fun1iPiPS_.%3\l 4: ret	_Z4fun1iPiPS_.%ptr.addr.0\l }"];
 }
