@@ -1,0 +1,12 @@
+digraph "CFG for '_Z4fun2iPiPS_S_' function" {
+	label="CFG for '_Z4fun2iPiPS_S_' function";
+
+	Node0x930d580 [shape=record,label="{entry:\l alloca:i32** %retval\l alloca:i32* %ptr.addr\l alloca:i32** %pptr.addr\l alloca:i32* %ptr1.addr\l |{<s0>T|<s1>F}}"];
+	Node0x930d580:s0 -> Node0x930dad0;
+	Node0x930d580:s1 -> Node0x930dba0;
+	Node0x930dad0 [shape=record,label="{if.then:                                          \l alloca: @globalC = %n.addr\l store: *%pptr.addr = %ptr.addr\l load: %ptr1.addr = *%pptr.addr\l assign: %ptr.addr = %ptr1.addr\l call: %call = i32* @_Z4fun1iPiPS_(%n.addr, %ptr.addr, %pptr.addr)\l assign: %ptr1.addr = %call\l assign: %retval = %pptr.addr\l }"];
+	Node0x930dad0 -> Node0x930e5a0;
+	Node0x930dba0 [shape=record,label="{if.else:                                          \l alloca: @globalD = %ptr1.addr\l alloca: %ptr.addr = %n.addr\l store: *@globalD = %ptr.addr\l load: %ptr1.addr = *%pptr.addr\l assign: %ptr1.addr = %ptr.addr\l assign: %retval = @globalD\l }"];
+	Node0x930dba0 -> Node0x930e5a0;
+	Node0x930e5a0 [shape=record,label="{return:                                           \l ret %retval\l }"];
+	Node1 [shape=record,label="{%retval topLevel\l %ptr.addr topLevel\l %pptr.addr topLevel\l @globalC topLevel\l @globalD topLevel\l %n.addr addressTaken\l %call addressTaken\l %ptr1.addr addressTaken\l %n.addr formarlParameter\l %ptr.addr formarlParameter\l %pptr.addr formarlParameter\l %ptr1.addr formarlParameter\l }"];}

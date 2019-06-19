@@ -4,24 +4,24 @@
 4	assign	0	1
 6	phi	2	3	4
 5	assign	5	0
-9	alloca	6	7
-3	assign	8	0
-11	store	11	10	9
-1	assign	12	8
-14	store	15	14	13
-16	alloca	9	12
-18	assign	1	12
-13	assign	4	13
-7	phi	16	10	1
-21	assign	12	10
-10	alloca	17	18
+9	alloca	6	8	7
+3	assign	9	0
+11	store	12	11	10
+1	assign	13	9
+14	store	16	15	14
+16	alloca	10	17	13
+18	assign	1	13
+13	assign	4	14
+7	phi	18	11	1
+21	assign	13	11
+10	alloca	19	21	20
 19	call
-8	assign	19	9
-17	alloca	10	20
-23	assign	21	20
-25	alloca	5	20
-24	assign	22	13
+8	assign	22	10
+17	alloca	11	24	23
+23	assign	25	23
+25	alloca	5	24	23
+24	assign	26	14
 26	block without stmt
-12	load	12	15	13
-15	load	12	15	13
-22	assign	3	9
+12	load	13	16	14
+15	load	13	16	14
+22	assign	3	10
