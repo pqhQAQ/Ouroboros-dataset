@@ -1,0 +1,5 @@
+digraph "CFG for '_Z4fun3iPi' function" {
+	label="CFG for '_Z4fun3iPi' function" ;
+
+	Node0x97f3e50 [shape=record,label="{entry:\l 20: alloca	_Z4fun3iPi.%ptr.addr-1	_Z4fun3iPi.%n.addr\l 21: call	_Z4fun3iPi.%call	i32* @_Z4fun4iPi(_Z4fun3iPi.%n.addr _Z4fun3iPi.%ptr.addr-1 )\l 22: return	_Z4fun3iPi.%call	i32* @_Z4fun4iPi(_Z4fun3iPi.%n.addr _Z4fun3iPi.%ptr.addr-1 )\l 23: ret	_Z4fun3iPi.%ptr.addr-1\l }"];
+}

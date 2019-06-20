@@ -1,0 +1,12 @@
+digraph "CFG for '_Z4fun2iPiPS_S_' function" {
+	label="CFG for '_Z4fun2iPiPS_S_' function" ;
+
+	Node0x97f2770 [shape=record,label="{entry:\l 6: block without stmt\l |{<s0>T|<s1>F}}"];
+	Node0x97f2770:s0 -> Node0x97f2e00;
+	Node0x97f2770:s1 -> Node0x97f2690;
+	Node0x97f2e00 [shape=record,label="{if.then:\l 7: alloca	@globalC	_Z4fun2iPiPS_S_.%n.addr\l 8: store	_Z4fun2iPiPS_S_.%pptr.addr-0	_Z4fun2iPiPS_S_.%ptr.addr-0\l 9: load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr-0\l 10: assign	_Z4fun2iPiPS_S_.%ptr.addr-1	_Z4fun2iPiPS_S_.%ptr1.addr\l 11: assign	_Z4fun2iPiPS_S_.%retval-1	_Z4fun2iPiPS_S_.%pptr.addr-0\l }"];
+	Node0x97f2e00 -> Node0x97f3600;
+	Node0x97f2690 [shape=record,label="{if.else:\l 12: alloca	@globalD	_Z4fun2iPiPS_S_.%ptr1.addr\l 13: alloca	_Z4fun2iPiPS_S_.%ptr.addr-2	_Z4fun2iPiPS_S_.%n.addr\l 14: store	@globalD	_Z4fun2iPiPS_S_.%ptr.addr-2\l 15: load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr-0\l 16: assign	_Z4fun2iPiPS_S_.%retval-2	@globalD\l }"];
+	Node0x97f2690 -> Node0x97f3600;
+	Node0x97f3600 [shape=record,label="{return:\l 17: phi	_Z4fun2iPiPS_S_.%retval-3	_Z4fun2iPiPS_S_.%retval-1	_Z4fun2iPiPS_S_.%retval-2	\l 18: phi	_Z4fun2iPiPS_S_.%ptr.addr-3	_Z4fun2iPiPS_S_.%ptr.addr-1	_Z4fun2iPiPS_S_.%ptr.addr-2	\l 19: ret	_Z4fun2iPiPS_S_.%retval-3\l }"];
+}
