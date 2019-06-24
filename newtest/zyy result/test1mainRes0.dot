@@ -1,0 +1,5 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x8973920 [shape=record,label="{entry:\l alloca:i32* %b\l alloca:i32** %y\l alloca:i32* %z\l alloca:i32* %v\l alloca:i32** %x\l alloca:i32* %w\l alloca: %y = %b\l alloca: %z = %c\l alloca: %v = %0\l assign: %x = %y\l store: *%x = %z\l load: %w = *%x\l store: *%y = %v\l }"];
+	Node1 [shape=record,label="{%y topLevel\l %z topLevel\l %v topLevel\l %x topLevel\l %w topLevel\l %b addressTaken\l %c addressTaken\l %0 addressTaken\l }"];}
