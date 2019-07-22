@@ -1,5 +1,0 @@
-digraph "CFG for '_Z4fun7iPiPS_' function" {
-	label="CFG for '_Z4fun7iPiPS_' function" ;
-
-	Node0x97f1c00 [shape=record,label="{entry:\l 35: call	_Z4fun7iPiPS_.%call	i32* @_Z4fun5iPiPS_(_Z4fun7iPiPS_.%n.addr _Z4fun7iPiPS_.%ptr.addr-0 _Z4fun7iPiPS_.%pptr.addr-0 )\l 36: return	_Z4fun7iPiPS_.%call	i32* @_Z4fun5iPiPS_(_Z4fun7iPiPS_.%n.addr _Z4fun7iPiPS_.%ptr.addr-0 _Z4fun7iPiPS_.%pptr.addr-0 )\l 37: assign	_Z4fun7iPiPS_.%ptr.addr-1	_Z4fun7iPiPS_.%call\l 38: ret	_Z4fun7iPiPS_.%ptr.addr-1\l }"];
-}

@@ -1,0 +1,2 @@
+total node number: 7
+0

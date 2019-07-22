@@ -1,0 +1,109 @@
+0: 0	call	_Z4fun1iPiPS_.%call	i32* @_Z4fun7iPiPS_(_Z4fun1iPiPS_.%n.addr _Z4fun1iPiPS_.%ptr.addr-0 _Z4fun1iPiPS_.%pptr.addr-0 )
+1: 1	return	_Z4fun1iPiPS_.%call	i32* @_Z4fun7iPiPS_(_Z4fun1iPiPS_.%n.addr _Z4fun1iPiPS_.%ptr.addr-0 _Z4fun1iPiPS_.%pptr.addr-0 )
+2: 2	assign	_Z4fun1iPiPS_.%ptr.addr-1	_Z4fun1iPiPS_.%call
+3: 3	assign	@globalC	_Z4fun1iPiPS_.%ptr.addr-1
+4: 4	assign	_Z4fun1iPiPS_.%pptr.addr-1	@globalD
+5: 0	block without stmt
+6: 1	alloca	@globalC	_Z4fun2iPiPS_S_.%n.addr
+7: 2	store	_Z4fun2iPiPS_S_.%pptr.addr-0	_Z4fun2iPiPS_S_.%ptr.addr-0
+8: 3	load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr-0
+9: 4	assign	_Z4fun2iPiPS_S_.%ptr.addr-1	_Z4fun2iPiPS_S_.%ptr1.addr
+10: 5	assign	_Z4fun2iPiPS_S_.%retval-1	_Z4fun2iPiPS_S_.%pptr.addr-0
+11: 6	alloca	@globalD	_Z4fun2iPiPS_S_.%ptr1.addr
+12: 7	alloca	_Z4fun2iPiPS_S_.%ptr.addr-2	_Z4fun2iPiPS_S_.%n.addr
+13: 8	store	@globalD	_Z4fun2iPiPS_S_.%ptr.addr-2
+14: 9	load	_Z4fun2iPiPS_S_.%ptr1.addr	_Z4fun2iPiPS_S_.%pptr.addr-0
+15: 10	assign	_Z4fun2iPiPS_S_.%retval-2	@globalD
+16: 11	phi	_Z4fun2iPiPS_S_.%retval-3	_Z4fun2iPiPS_S_.%retval-1	_Z4fun2iPiPS_S_.%retval-2	
+17: 12	phi	_Z4fun2iPiPS_S_.%ptr.addr-3	_Z4fun2iPiPS_S_.%ptr.addr-1	_Z4fun2iPiPS_S_.%ptr.addr-2	
+18: 0	alloca	_Z4fun3iPi.%ptr.addr-1	_Z4fun3iPi.%n.addr
+19: 1	call	_Z4fun3iPi.%call	i32* @_Z4fun4iPi(_Z4fun3iPi.%n.addr _Z4fun3iPi.%ptr.addr-1 )
+20: 2	return	_Z4fun3iPi.%call	i32* @_Z4fun4iPi(_Z4fun3iPi.%n.addr _Z4fun3iPi.%ptr.addr-1 )
+21: 0	call	_Z4fun4iPi.%call	i32* @_Z4fun3iPi(_Z4fun4iPi.%n.addr _Z4fun4iPi.%ptr.addr-0 )
+22: 1	return	_Z4fun4iPi.%call	i32* @_Z4fun3iPi(_Z4fun4iPi.%n.addr _Z4fun4iPi.%ptr.addr-0 )
+23: 0	call	_Z4fun5iPiPS_.%call	i32* @_Z4fun6iPiPS_(_Z4fun5iPiPS_.%n.addr _Z4fun5iPiPS_.%ptr.addr-0 _Z4fun5iPiPS_.%pptr.addr-0 )
+24: 1	return	_Z4fun5iPiPS_.%call	i32* @_Z4fun6iPiPS_(_Z4fun5iPiPS_.%n.addr _Z4fun5iPiPS_.%ptr.addr-0 _Z4fun5iPiPS_.%pptr.addr-0 )
+25: 2	assign	_Z4fun5iPiPS_.%ptr.addr-1	_Z4fun5iPiPS_.%call
+26: 0	call	_Z4fun6iPiPS_.%call	i32* @_Z4fun1iPiPS_(_Z4fun6iPiPS_.%n.addr _Z4fun6iPiPS_.%ptr.addr-0 _Z4fun6iPiPS_.%pptr.addr-0 )
+27: 1	return	_Z4fun6iPiPS_.%call	i32* @_Z4fun1iPiPS_(_Z4fun6iPiPS_.%n.addr _Z4fun6iPiPS_.%ptr.addr-0 _Z4fun6iPiPS_.%pptr.addr-0 )
+28: 2	assign	_Z4fun6iPiPS_.%ptr.addr-1	_Z4fun6iPiPS_.%call
+29: 0	call	_Z4fun7iPiPS_.%call	i32* @_Z4fun5iPiPS_(_Z4fun7iPiPS_.%n.addr _Z4fun7iPiPS_.%ptr.addr-0 _Z4fun7iPiPS_.%pptr.addr-0 )
+30: 1	return	_Z4fun7iPiPS_.%call	i32* @_Z4fun5iPiPS_(_Z4fun7iPiPS_.%n.addr _Z4fun7iPiPS_.%ptr.addr-0 _Z4fun7iPiPS_.%pptr.addr-0 )
+31: 2	assign	_Z4fun7iPiPS_.%ptr.addr-1	_Z4fun7iPiPS_.%call
+32: 0	assign	main.%e-1	main.%f-0
+33: 1	load	@globalC	main.%e-1
+34: 2	store	main.%e-1	main.%g
+35: 3	load	main.%h	main.%e-1
+36: 4	alloca	main.%q-1	main.%h
+37: 5	store	main.%f-0	main.%p-0
+38: 6	store	main.%q-0	main.%p-0
+39: 7	assign	main.%g	main.%h
+40: 8	alloca	main.%p-1	main.%b
+41: 9	phi	main.%p-2	main.%p-1	main.%p-0	
+42: 10	phi	main.%q-2	main.%q-0	main.%q-1	
+43: 11	block without stmt
+44: 12	load	main.%h	main.%q-2
+45: 13	assign	main.%g	main.%p-2
+46: 14	alloca	main.%p-3	main.%d
+47: 15	alloca	main.%p-4	main.%a
+48: 16	phi	main.%p-5	main.%p-3	main.%p-2	main.%p-4	
+49: 17	call	main.%call	i32* @_Z4fun1iPiPS_(main.%a main.%g main.%e-1 )
+50: 18	return	main.%call	i32* @_Z4fun1iPiPS_(main.%a main.%g main.%e-1 )
+51: 19	assign	main.%p-6	main.%call
+52: 20	call	main.%call12	i32** @_Z4fun2iPiPS_S_(main.%b main.%h main.%q-2 main.%p-5 )
+53: 21	return	main.%call12	i32** @_Z4fun2iPiPS_S_(main.%b main.%h main.%q-2 main.%p-5 )
+54: 22	assign	main.%e-2	main.%call12
+55: 23	phi	main.%p-7	main.%p-6	main.%p-5	
+56: 24	phi	main.%e-3	main.%e-1	main.%e-2	
+57: 25	call	main.%call14	i32* @_Z4fun3iPi(main.%c main.%g )
+58: 26	return	main.%call14	i32* @_Z4fun3iPi(main.%c main.%g )
+59: 27	call	main.%call15	i32* @_Z4fun4iPi(main.%c main.%g )
+60: 28	return	main.%call15	i32* @_Z4fun4iPi(main.%c main.%g )
+61: 29	assign	main.%pointerCase.0	main.%g
+62: 30	assign	main.%h	main.%pointerCase.1-0
+63: 31	store	main.%pointerCase.2-0	main.%p-7
+64: 32	load	main.%h	main.%pointerCase.3-0
+65: 33	alloca	main.%pointerCase.3-1	main.%g
+66: 34	alloca	main.%f-3	main.%pointerCase.0
+67: 35	store	main.%e-3	main.%pointerCase.1-0
+68: 36	load	main.%pointerCase.0	main.%f-3
+69: 37	assign	main.%PointerArray.2-1	main.%p-7
+70: 38	assign	main.%pointerCase.1-1	main.%PointerArray.1
+71: 39	assign	main.%pointerCase.2-1	main.%PointerArray-0
+72: 40	store	main.%pointerCase.3-0	main.%PointerArray.6-0
+73: 41	load	main.%PointerArray.7-1	main.%pointerCase.3-0
+74: 42	alloca	main.%f-1	main.%PointerArray.1
+75: 43	load	main.%PointerArray.3-1	main.%f-1
+76: 44	store	main.%e-3	main.%PointerArray.4-0
+77: 45	block without stmt
+78: 46	phi	main.%PointerArray.3-3	main.%PointerArray.3-0	main.%PointerArray.3-2	
+79: 47	phi	main.%PointerArray.2-3	main.%PointerArray.2-0	main.%PointerArray.2-2	
+80: 48	phi	main.%pointerCase.1-3	main.%pointerCase.1-0	main.%pointerCase.1-2	
+81: 49	phi	main.%pointerCase.2-3	main.%pointerCase.2-0	main.%pointerCase.2-2	
+82: 50	phi	main.%pointerCase.3-2	main.%pointerCase.3-1	main.%pointerCase.3-0	
+83: 51	phi	main.%PointerArray.7-3	main.%PointerArray.7-0	main.%PointerArray.7-2	
+84: 52	phi	main.%f-4	main.%f-3	main.%f-2	
+85: 53	phi	main.%PointerArray.3-2	main.%PointerArray.3-1	main.%PointerArray.3-0	
+86: 54	phi	main.%PointerArray.2-2	main.%PointerArray.2-1	main.%PointerArray.2-0	
+87: 55	phi	main.%pointerCase.1-2	main.%pointerCase.1-1	main.%pointerCase.1-0	
+88: 56	phi	main.%pointerCase.2-2	main.%pointerCase.2-1	main.%pointerCase.2-0	
+89: 57	phi	main.%PointerArray.7-2	main.%PointerArray.7-1	main.%PointerArray.7-0	
+90: 58	phi	main.%f-2	main.%f-1	main.%f-0	
+91: 59	block without stmt
+92: 60	call	main.%call28	i32* @_Z4fun3iPi(main.%a main.%p-7 )
+93: 61	return	main.%call28	i32* @_Z4fun3iPi(main.%a main.%p-7 )
+94: 62	phi	main.%p-8	main.%p-7	main.%p-10	
+95: 63	phi	main.%q-3	main.%q-2	main.%q-5	
+96: 64	assign	main.%g	main.%PointerArray.0-0
+97: 65	assign	main.%PointerArray.1	main.%pointerCase.0
+98: 66	alloca	main.%newP-1	main.%84
+99: 67	alloca	main.%newPP-1	main.%85
+100: 68	store	main.%e-3	main.%g
+101: 69	load	main.%h	main.%e-3
+102: 70	alloca	main.%q-4	main.%h
+103: 71	store	main.%f-4	main.%p-8
+104: 72	store	main.%q-3	main.%p-8
+105: 73	assign	main.%g	main.%h
+106: 74	alloca	main.%p-9	main.%b
+107: 75	phi	main.%p-10	main.%p-9	main.%p-8	
+108: 76	phi	main.%q-5	main.%q-3	main.%q-4	

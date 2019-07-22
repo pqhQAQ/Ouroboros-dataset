@@ -1,17 +1,13 @@
 ------------------------IntraGraph------------------------
 Function: [_Z4fun1iPiPS_]
-Edges: [0;1;	1;2;	2;3;	3;4;	]
+Edges: [0;1;	1;2;	2;3;	]
 Formal Parameters: [_Z4fun1iPiPS_.%n.addr	_Z4fun1iPiPS_.%ptr.addr-0	_Z4fun1iPiPS_.%pptr.addr-0	]
-Formal Returns: [_Z4fun1iPiPS_.%ptr.addr-0	]
-Exit Index: [4]
 Entry Index: [0]
 
 ------------------------IntraGraph------------------------
 Function: [_Z4fun2iPiPS_S_]
-Call Sites: [_Z4fun1iPiPS_	<10>	<_Z4fun2iPiPS_S_.%n.addr;_Z4fun2iPiPS_S_.%ptr.addr-1;_Z4fun2iPiPS_S_.%pptr.addr-0;>	<_Z4fun2iPiPS_S_.%call>]
-Edges: [5;6;	5;14;	6;7;	7;8;	8;9;	9;10;	11;12;	12;13;	13;20;	14;15;	15;16;	16;17;	17;18;	18;19;	19;20;	20;21;	21;22;	]
+Call Sites: [_Z4fun1iPiPS_	<9>	<_Z4fun2iPiPS_S_.%n.addr;_Z4fun2iPiPS_S_.%ptr.addr-1;_Z4fun2iPiPS_S_.%pptr.addr-0;>	<_Z4fun2iPiPS_S_.%call>]
+Edges: [4;5;	4;13;	5;6;	6;7;	7;8;	8;9;	10;11;	11;12;	12;19;	13;14;	14;15;	15;16;	16;17;	17;18;	18;19;	19;20;	]
 Formal Parameters: [_Z4fun2iPiPS_S_.%n.addr	_Z4fun2iPiPS_S_.%ptr.addr-0	_Z4fun2iPiPS_S_.%pptr.addr-0	_Z4fun2iPiPS_S_.%ptr1.addr	]
-Formal Returns: [_Z4fun2iPiPS_S_.%retval-3	]
-Exit Index: [22]
-Entry Index: [5]
+Entry Index: [4]
 

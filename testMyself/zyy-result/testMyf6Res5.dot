@@ -1,0 +1,5 @@
+digraph "CFG for '_Z4fun6iPiPS_' function" {
+	label="CFG for '_Z4fun6iPiPS_' function";
+
+	Node0x97f5c80 [shape=record,label="{entry:\l alloca:i32* %ptr.addr\l alloca:i32** %pptr.addr\l call: %call = i32* @_Z4fun1iPiPS_(%n.addr, %ptr.addr, %pptr.addr)\l assign: %ptr.addr = %call\l ret %ptr.addr\l }"];
+	Node1 [shape=record,label="{%ptr.addr topLevel\l %pptr.addr topLevel\l %call addressTaken\l %n.addr formarlParameter\l %ptr.addr formarlParameter\l %pptr.addr formarlParameter\l }"];}

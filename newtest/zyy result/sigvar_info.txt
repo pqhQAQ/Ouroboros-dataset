@@ -1,7 +1,0 @@
-main.%b
-main.%c
-main.%e
-main.%y
-main.%z
-main.%x
-main.%w
